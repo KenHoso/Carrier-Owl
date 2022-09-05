@@ -3,9 +3,9 @@ subject: 'cat:cs.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        super-resolution: 3
+        NeRF: 3
+        GAN: 1
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 1
