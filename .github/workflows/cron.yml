@@ -28,6 +28,7 @@ jobs:
 
       - name: install dependencies
         run: poetry install
+      - run: poetry self update
 
       - name: Run owl
         run:
