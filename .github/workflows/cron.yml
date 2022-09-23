@@ -24,9 +24,9 @@ jobs:
         uses: abatilo/actions-poetry@v2.0.0
         with:
           poetry-version: 1.1.2
-      - run: pip install -r requirements.txt
+      # - run: pip install -r requirements.txt
       - run: pip install -U poetry
-      - run: poetry self update
+      # - run: poetry self update
 
       - name: install dependencies
         run: poetry install
