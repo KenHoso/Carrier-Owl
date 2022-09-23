@@ -25,6 +25,7 @@ jobs:
         with:
           poetry-version: 1.1.2
       # - run: pip install -r requirements.txt
+      - run: pip install -U pip
       - run: pip install -U poetry
       - run: pip install -U wheel
       # - run: poetry self update
